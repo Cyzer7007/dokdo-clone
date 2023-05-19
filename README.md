@@ -3,7 +3,6 @@
 <br/>
 <p>
     <a href="https://npmjs.com/package/dokdo"><img src="https://img.shields.io/npm/v/dokdo"></a>
-    <a href="https://github.com/wonderlandpark/dokdo/actions"><img src="https://github.com/wonderlandpark/dokdo/workflows/Testing/badge.svg" alt="Build status" /></a>
 </p>
 <p>
     <a href="https://nodei.co/npm/dokdo/"><img src="https://nodei.co/npm/dokdo.png"></a>
@@ -11,6 +10,8 @@
 </div>
 
 ## About
+
+This is a clone of [wonderlandpark/dokdo](https://github.com/wonderlandpark/dokdo)
 
 Dokdo. Easy Discord bot debuging tool.
 
@@ -20,38 +21,10 @@ It's debugging tool for `discord.js` projects.
 
 ![sh](assets/dokdo.gif)
 
-## Installation
-
-<details>
-    <summary>Using Discord.js v12?</summary>
-
-You could install `dokdo@0.4.1` by
-    
-```sh
-  npm i dokdo@djsv12
-```
-</details>
-
-<details>
-    <summary>Using Discord.js v13?</summary>
-
-You could install `dokdo@0.5.1` by
-    
-```sh
-  npm i dokdo@djsv13
-```
-</details>
-
 ### Stable
 
 ```sh
-npm i dokdo@latest
-```
-
-### Dev
-
-```sh
-npm i wonderlandpark/dokdo#main
+npm i Cyzer7007/dokdo-clone#main
 ```
 
 ## Features
@@ -72,7 +45,7 @@ const client = new Discord.Client({ intents: ['GUILDS', 'GUILD_MESSAGES'] })
 
 const Dokdo = require('dokdo')
 
-const DokdoHandler = new Dokdo(client) // Using Bot Application ownerID as default for owner option.
+const DokdoHandler = new Dokdo(client{ owners: ["1234", "1234"] ) // If owner is not specified then it will use Bot Application ownerID as default for owner option.
 
 client.on('messageCreate', async message => {
   if (message.content === 'ping') return message.channel.send('Pong') // handle commands first
@@ -80,20 +53,6 @@ client.on('messageCreate', async message => {
 })
 
 client.login('super secret token')
-```
-
-## Notes
-
-### Message contents intent not approved?
-
-You can set the Dokdo prefix including mentions. This allows the client to read the message content.
-
-Example:
-
-```js
-new Dokdo(client, {  prefix: '<@285185716240252929>' })
-
-// Commmand Usage: <@285185716240252929> dokdo
 ```
 
 ## Contributing
