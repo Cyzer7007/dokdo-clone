@@ -1,12 +1,6 @@
 <div align="center">
-<img src="assets/dokdo.png">
-<br/>
-<p>
-    <a href="https://npmjs.com/package/dokdo"><img src="https://img.shields.io/npm/v/dokdo"></a>
-</p>
-<p>
-    <a href="https://nodei.co/npm/dokdo/"><img src="https://nodei.co/npm/dokdo.png"></a>
-</p>
+    <img src="assets/dokdo.png">
+    <br/>
 </div>
 
 ## About
@@ -54,7 +48,3 @@ client.on('messageCreate', async message => {
 
 client.login('super secret token')
 ```
-
-## Contributing
-
-Please check out it hasn't already been exists before you create issue, and check [the contribution guide](./.github/CONTRIBUTING.md) before you submit Pull Request.
