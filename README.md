@@ -15,7 +15,7 @@ It's debugging tool for `discord.js` projects.
 
 ![sh](assets/dokdo.gif)
 
-### Stable
+### Installation
 
 ```sh
 npm i Cyzer7007/dokdo-clone#main
@@ -34,16 +34,22 @@ npm i Cyzer7007/dokdo-clone#main
 ## Example usage
 
 ```js
-const Discord = require('discord.js')
-const client = new Discord.Client({ intents: ['GUILDS', 'GUILD_MESSAGES'] })
+const { Discord, GatewayIntentBits } = require('discord.js')
+const client = new Discord.Client({
+  intents: [ 
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+  ],
+})
 
 const Dokdo = require('dokdo')
 
-const DokdoHandler = new Dokdo(client{ owners: ["1234", "1234"] ) // If owner is not specified then it will use Bot Application ownerID as default for owner option.
+const DokdoHandler = new Dokdo(client, { owners: ["000000000000", "000000000000"] }) // If owner is not specified then it will use Bot Application ownerID as default for owner option.
 
 client.on('messageCreate', async message => {
-  if (message.content === 'ping') return message.channel.send('Pong') // handle commands first
-  DokdoHandler.run(message) // try !dokdo
+  if ((message.content.startsWith('!dokdo') || (message.content.startsWith('!dok')) {
+    DokdoHandler.run(message)
+  }
 })
 
 client.login('super secret token')
