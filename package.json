@@ -1,7 +1,7 @@
 {
   "name": "dokdo",
   "version": "1.0.0",
-  "description": "Dokdo. Easy Discord bot debuging tool.",
+  "description": "Dokdo. Easy Discord bot debuging tool. Cloned version of wonderlandpark/dokdo",
   "main": "./src/index.js",
   "types": "./typings/index.d.ts",
   "scripts": {
@@ -13,17 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wonderlandpark/dokdo.git"
+    "url": "git+https://github.com/Cyzer7007/dokdo-clone.git"
   },
   "author": {
-    "name": "wonderlandpark",
-    "email": "wonderlandpark@outlook.kr"
+    "name": "Cyzer",
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wonderlandpark/dokdo/issues"
-  },
-  "homepage": "https://github.com/wonderlandpark/dokdo#readme",
+  "homepage": "https://github.com/Cyzer7007/dokdo-clone#readme",
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
