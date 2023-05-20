@@ -15,9 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/Cyzer7007/dokdo-clone.git"
   },
-  "author": {
-    "name": "Cyzer",
-  },
+  "author": "Cyzer",
   "license": "MIT",
   "homepage": "https://github.com/Cyzer7007/dokdo-clone#readme",
   "dependencies": {
