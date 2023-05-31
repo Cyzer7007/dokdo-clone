@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cyzer7007/dokdo-clone.git"
+    "url": "git+https://github.com/Faiyaz2006/dokdo-clone.git"
   },
-  "author": "Cyzer",
+  "author": "Faiyaz",
   "license": "MIT",
-  "homepage": "https://github.com/Cyzer7007/dokdo-clone#readme",
+  "homepage": "https://github.com/Faiyaz2006/dokdo-clone#readme",
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
