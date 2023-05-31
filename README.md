@@ -18,7 +18,7 @@ It's debugging tool for `discord.js` projects.
 ### Installation
 
 ```sh
-npm i Cyzer7007/dokdo-clone#main
+npm i Faiyaz2006/dokdo-clone#main
 ```
 
 ## Features
