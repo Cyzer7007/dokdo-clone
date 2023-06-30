@@ -7,9 +7,9 @@
 
 This is a clone of [wonderlandpark/dokdo](https://github.com/wonderlandpark/dokdo)
 
-Dokdo. Easy Discord bot debuging tool.
+Dokdo. Easy Discord bot debugging tool.
 
-It's debugging tool for `discord.js` projects.
+It's a debugging tool for `discord.js` projects.
 
 ## Preview
 
@@ -18,7 +18,7 @@ It's debugging tool for `discord.js` projects.
 ### Installation
 
 ```sh
-npm i Faiyaz2006/dokdo-clone#main
+npm i iFaiyaz/dokdo-clone#main
 ```
 
 ## Features
@@ -44,7 +44,7 @@ const client = new Discord.Client({
 
 const Dokdo = require('dokdo')
 
-const DokdoHandler = new Dokdo(client, { owners: ["000000000000", "000000000000"] }) // If owner is not specified then it will use Bot Application ownerID as default for owner option.
+const DokdoHandler = new Dokdo(client, { owners: ["000000000000", "000000000000"] }) // If the owners are not specified then it will use Bot Application ownerID as default for owner option.
 
 client.on('messageCreate', async message => {
   if ((message.content.startsWith('!dokdo') || (message.content.startsWith('!dok')) {
