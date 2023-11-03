@@ -18,7 +18,7 @@ It's a debugging tool for `discord.js` projects.
 ### Installation
 
 ```sh
-npm i iFaiyaz/dokdo-clone#main
+npm i Faironic/dokdo-clone#main
 ```
 
 ## Features
